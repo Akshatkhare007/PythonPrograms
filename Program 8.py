@@ -1,5 +1,5 @@
 
-# code to check car can be purchased or not
+# coding to check car can be purchased or not
 
 a=int(input("Enter the cost of car="))
 if (a<=5000000):
