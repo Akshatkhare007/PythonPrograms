@@ -1,5 +1,5 @@
 
-# to input marks and check what is the division of Student
+# to input marks and check the division of Student
 
 a=int(input("Enter marks="))
 if (a>=70):
