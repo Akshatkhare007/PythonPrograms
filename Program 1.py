@@ -1,6 +1,6 @@
 
 '''
-Runtime input:-
+Runtime input -
 print addition, multiplication, subtraction of two numbers.
 '''
 a = float(input("Enter First Number="))
