@@ -1,8 +1,7 @@
 
 '''
-Task 1
 Runtime input:-
-print addition, multiplication, subtraction of two number.
+print addition, multiplication, subtraction of two numbers.
 '''
 a = float(input("Enter Your First Number: "))
 b = float(input("Enter Your Second Number: "))
