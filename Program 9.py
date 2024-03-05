@@ -1,5 +1,5 @@
 
-# code to enter age and check to which category person belongs
+# program to enter age and check to which age group person belongs
 
 a=int(input("Enter the age="))
 if (a<21):
