@@ -1,3 +1,8 @@
+'''
+task-
+take two numbers as input from user 
+and print all operations using 7 operators
+'''
 
 a=float(input("Enter the first number="))
 b=float(input("Enter the second number="))
@@ -9,11 +14,7 @@ print("Modulus =", a%b) # modulus
 print("Floor Division =", a//b) # floor division
 print("Exponential =", a**b) # exponential
 
-'''
-task 3:
-take two numbers as input from user 
-and print all operations using 7 operators
-'''
+
 
 
 
