@@ -1,5 +1,7 @@
-
-# code to enter age and check to which category person belongs
+'''
+code to enter age and check whether a person 
+is minor, adult or senior citizen
+'''
 
 a=int(input("Enter the age="))
 if (a<18):
