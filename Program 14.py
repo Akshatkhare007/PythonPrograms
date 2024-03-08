@@ -1,5 +1,5 @@
 
-# program for making simple calculator
+# program for making simple calculator using match case
 
 print("My Calculator")
 print("Enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division")
