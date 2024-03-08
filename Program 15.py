@@ -1,11 +1,16 @@
+'''
+Program to make an ATM Machine and 
+perform various operations performed
+by an ATM Machine
+'''
 
-print("State bank of india")
+print("State Bank of India")
 
-name=input("Enter your name: ")
+name=input("Enter your name-")
 print("Hello", name)
 a=int(input("Enter your account number:"))
 b=int(input("Enter your pin:"))
-print("Welcome to the State bank of india")
+print("Welcome to the State Bank of India")
 print("Press 1. Deposit")
 print("Press 2.  Cash Withdrawal")
 print("Press 3. check balance")
@@ -14,21 +19,21 @@ x=int(input("Enter your choice:"))
 
 match x:
   case 1:
-   print("you account number is",a)
-   print(name,"How much money do you want to deposit?")
+   print("Your account number is",a)
+   print(name,"How much money you want to deposit?")
    y=int(input("Enter the amount:"))
    print("Your money is deposited successfully",y) 
   case 2:
-     print("you account number is",a) 
+     print("Your account number is",a) 
      z=int(input("Enter the amount:"))
-     print("Your money is withdrawl successfully",z)
+     print("Your money withdrawal is successfull",z)
   case 3:
-    print("you account number is",a)
-    print("your current balance is:10000000")
+    print("Your account number is",a)
+    print("Your current balance is:10000000")
   case 4:
-    print("you account number is",a)
+    print("Your account number is",a)
     n=int(input("Enter the account number you want to transfer money:"))
     m=int(input("Enter the amount you want to transfer:"))
-    print("successfully transfer",n)
+    print("Successfully transferred",n)
   case _:
-    print("Wrong choice")
+    print("Invalid choice")
