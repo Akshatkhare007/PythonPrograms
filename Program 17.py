@@ -1,5 +1,8 @@
-
-color = input("Enter the traffic light color Red, Yellow, Green: ")
+'''
+program to enter the colour of traffic light
+and print the required information
+'''
+color = input("Enter the colour of traffic light- Red, Yellow or Green:")
 
 match color.lower():
   case "red":
@@ -9,4 +12,4 @@ match color.lower():
   case "green":
     print("Go! The light is green.")
   case _:
-    print("Invalid color Please select Red, yellow, or green.")
+    print("Invalid color. Please select Red, Yellow or Green.")
