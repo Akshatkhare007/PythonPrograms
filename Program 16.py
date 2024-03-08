@@ -1,6 +1,6 @@
 '''
 code to enter age and check whether a person 
-is minor, adult or senior citizen
+is minor, adult or a senior citizen
 '''
 
 a=int(input("Enter the age="))
